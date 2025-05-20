@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 42%);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;  
+    flex-direction: column;
+    width: 330px;
+    height: 450px;
+    box-shadow: +5px +5px 2px 5px hsl(0, 0%, 7%) ;
+}
+.img-1{
+     border-radius: 7px;
+}
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    text-align: center;
+    border-radius:5px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+    padding: 5px;
+    letter-spacing: -0.5px;
+    align-content: center;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.Published{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+.heading{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-size: larger;
+}
+.p{
+    margin-top: 0px;
+    color: hsl(0, 0%, 42%);
+    font-size: medium;
+    line-height: 1.5;
+}
+.avrt{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.img-2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url('./assets/images/image-avatar.webp');
+    background-size: cover;
+    margin-right: 10px;
+}
+.Name{
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+    font-size: smaller;    
+}
+@media (max-width: 375px) {
+    .box{
+        transform: scale(0.6);   
+    }
+       
+}
+@media (min-width: 376px) and (max-width: 1440px){
+    .box{
+        transform: scale(0.7);
+    }
+}
+
+
